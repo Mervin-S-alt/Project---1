@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS ages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    day INT,
+    month INT,
+    year INT,
+    age_text VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
